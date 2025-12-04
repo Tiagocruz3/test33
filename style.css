@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    text-align: center;
+}
+
+div#board {
+    display: grid;
+    grid-template-columns: 3;
+    gap: 10px;
+}
+
+div.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 32px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+button#risetBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
